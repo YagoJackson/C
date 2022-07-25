@@ -3,11 +3,12 @@
 #include <locale.h>
 #include <windows.h>
 #include <string.h>
+#include <ctype.h>
 
 int main()
 {
     setlocale(LC_ALL,"");
-    printf("VOCÊ");
+    
 
 
     return 0;
